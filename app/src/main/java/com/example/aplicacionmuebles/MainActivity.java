@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     public void annadirBoton(View view) {
         // Crear el botón
         Button btnMueble = new Button(this);
-        btnMueble.setText("Nuevo boton");
+        btnMueble.setText("Nueva silla");
         btnMueble.setBackground(getResources().getDrawable(R.drawable.fondo_boton));
 
         // Convertir dp a píxeles para el tamaño del botón

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978227388818",
+    "project_id": "appmuebles-dff07",
+    "storage_bucket": "appmuebles-dff07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978227388818:android:87ca66376a9cff6072e14b",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionmuebles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRqm5eHnbGF-Hrc5b1tjZIYXj2iWyfPlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
