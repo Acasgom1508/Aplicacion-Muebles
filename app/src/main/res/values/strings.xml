@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Aplicacion Muebles</string>
+    <string name="bienvenida">Bienvenido a</string>
+    <string name="nombreEmpresa">Nombre empresa</string>
+    <string name="iniciosesion"><u>Inicio de sesión</u></string>
+    <string name="usuario">Usuario:</string>
+    <string name="contraseña">Contraseña:</string>
+    <string name="iniciar_bot">Inciar sesión</string>
+    <string name="inicio"><u>Inicio</u></string>
+    <string name="mesas"><u>Mesas</u></string>
+    <string name="sillas"><u>Sillas</u></string>
+    <string name="carrito"><u>Carrito</u></string>
+    <string name="cuenta"><u>Cuenta</u></string>
+    <string name="email">Email:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="guardar">Guardar</string>
+    <string name="informacion">Si es la primera vez que inicia sesión, debe rellenar la información personal</string>
+    <string name="total">Total:</string>
+    <string name="cero">0€</string>
+    <string name="txt_carrito">Al pulsar en el siguiente botón se eliminarán del carrito y se enviarán a la dirección especificada</string>
+    <string name="comprar">Comprar</string>
 </resources>

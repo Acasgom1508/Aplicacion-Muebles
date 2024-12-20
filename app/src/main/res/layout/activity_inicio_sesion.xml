@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pantallabienvenida"
+    tools:context=".InicioSesion">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/nombreEmpresa"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/hind_medium"
+        android:text="@string/bienvenida"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="337dp"
+        android:layout_height="193dp"
+        app:srcCompat="@mipmap/logo_ampliado"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="340dp"
+        android:background="@mipmap/cuadrado"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/iniciarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/iniciosesion"
+            android:textColor="#1C5D99"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/usuario_pt"
+            android:layout_width="257dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/contra_pt"
+                android:layout_width="209dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="0dp"
+                android:ems="10"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="51dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="ocultar"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ojo" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/iniciar_sesion_bot"
+            android:layout_width="272dp"
+            android:layout_height="62dp"
+            android:backgroundTint="#1C5D99"
+            android:onClick="iniciarSesion"
+            android:text="@string/iniciar_bot"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
