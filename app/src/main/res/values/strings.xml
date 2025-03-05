@@ -3,8 +3,10 @@
     <string name="bienvenida">Bienvenido a</string>
     <string name="nombreEmpresa">Nombre empresa</string>
     <string name="iniciosesion"><u>Inicio de sesión</u></string>
-    <string name="usuario">Usuario:</string>
-    <string name="contraseña">Contraseña:</string>
+    <string name="usuario">Correo</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="repetir_contrasena">Repetir contraseña</string>
     <string name="iniciar_bot">Inciar sesión</string>
     <string name="inicio"><u>Inicio</u></string>
     <string name="mesas"><u>Mesas</u></string>
@@ -19,4 +21,7 @@
     <string name="cero">0€</string>
     <string name="txt_carrito">Al pulsar en el siguiente botón se eliminarán del carrito y se enviarán a la dirección especificada</string>
     <string name="comprar">Comprar</string>
+    <string name="registro">¿Aún no tienes cuenta? Registrate aqui</string>
+    <string name="RegistroPantalla">Registro</string>
+    <string name="registrarse">Registrarse</string>
 </resources>
